@@ -1,0 +1,15 @@
+.products {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-top: 2rem;
+  align-items: center;
+  justify-content: space-between;
+  margin: 90px;
+}
+
+@media screen and (min-width: 600px) {
+  .products {
+    grid-template-columns: repeat(auto-fit, minmax(14rem, 16rem));
+  }
+
+}
